@@ -1,0 +1,19 @@
+{
+  "name": "e2e_leadingmile_automation_playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation for Leading Mile website",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "install:playwright": "npx playwright install"
+  },
+  "keywords": ["playwright", "e2e", "automation"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3",
+    "typescript": "^5.0.0"
+  }
+}
