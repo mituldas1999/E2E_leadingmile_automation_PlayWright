@@ -15,8 +15,8 @@ This repository contains automation tests using Playwright. Follow the steps bel
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git](https://github.com/mituldas1999/Bootcampshub_Portal_Automation_Using_Playwright
-   cd Bootcampshub_Portal_Automation_Using_Playwright
+   git clone https://github.com/mituldas1999/E2E_leadingmile_automation_PlayWright
+   cd E2E_leadingmile_automation_PlayWright
    ```
 
 2. **Install Dependencies**
