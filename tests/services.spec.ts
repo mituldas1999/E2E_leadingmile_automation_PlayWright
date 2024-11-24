@@ -1,25 +1,32 @@
-import { test } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
+import { test, expect } from '@playwright/test';
+import { ServicesPage } from '../pages/ServicesPage';
 
-test('Open and interact with services', async ({ page }) => {
-  const homePage = new HomePage(page);
+test.describe('Services Page Tests', () => {
+  let servicesPage: ServicesPage;
 
-  // Navigate to the homepage
-  await homePage.navigate();
+  test.beforeEach(async ({ page }) => {
+    // Initialize the ServicesPage and navigate to the homepage
+    servicesPage = new ServicesPage(page);
+    await servicesPage.navigateToPage();
+  });
 
-  // Open "Our Services" dropdown and click each service link
-  const services = [
-    'ACES – Maintenance and Support',
-    'BASE – Back to Standard',
-    'COIL – Integration Layer',
-    'DAME – Data Migration',
-    'MIRA – DWH Solution',
-    'TARA – Test Automation',
-    'VAST – Software Selections',
-  ];
+  test('Navigate to and verify Business Intelligence', async () => {
+    // Navigate to Business Intelligence and verify the heading
+    await servicesPage.clickBusinessIntelligence();
+    await servicesPage.verifyBusinessIntelligenceHeading();
+  });
 
-  for (const service of services) {
-    await homePage.clickOurServices();
-    await homePage.clickServiceLink(service);
-  }
+  test('Navigate to and verify Maintenance and Support', async () => {
+    // Navigate to Maintenance and Support and verify the heading
+    await servicesPage.clickMaintenanceAndSupport();
+    await servicesPage.verifyMaintenanceAndSupportHeading();
+  });
+
+  test('Navigate to and verify Testing', async () => {
+    // Navigate to Testing and verify the heading
+    await servicesPage.clickTesting();
+    await servicesPage.verifyTestingHeading();
+  });
+
+  // Add other service-specific tests as needed, following the same pattern
 });

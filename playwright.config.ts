@@ -80,6 +80,28 @@
 
 
 
+// import { defineConfig, devices } from '@playwright/test';
+
+// export default defineConfig({
+//   testDir: './tests',
+//   fullyParallel: true,
+//   forbidOnly: !!process.env.CI,
+//   retries: process.env.CI ? 2 : 0,
+//   workers: process.env.CI ? 1 : undefined,
+//   reporter: [['html'], ['json', { outputFile: 'results.json' }]],
+//   use: {
+//     baseURL: 'https://www.leadingmile.com/',
+//     trace: 'retain-on-failure',
+//     screenshot: 'only-on-failure',
+//     video: 'retain-on-failure',
+//     headless: false, // Run with browser UI visible
+//     ...devices['Desktop Chrome'], // Use Chromium (Desktop Chrome device configuration)
+//   },
+//   timeout: 30 * 1000,
+// });
+
+
+
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
@@ -90,12 +112,12 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: [['html'], ['json', { outputFile: 'results.json' }]],
   use: {
-    baseURL: 'https://www.leadingmile.com/',
+    baseURL: 'https://www.leadingmile.com',
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false, // Run with browser UI visible
-    ...devices['Desktop Chrome'], // Use Chromium (Desktop Chrome device configuration)
+    headless: false,
+    ...devices['Desktop Chrome'],
   },
   timeout: 30 * 1000,
 });

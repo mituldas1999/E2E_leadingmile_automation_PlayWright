@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -55,181 +55,13 @@
   },
   "suites": [
     {
-      "title": "navigate.spec.ts",
-      "file": "navigate.spec.ts",
+      "title": "testfile.spec.ts",
+      "file": "testfile.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Navigate to homepage",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 17257,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:02.070Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7de0d242d5b1e7b66517-443a96d67ec46167033a",
-          "file": "navigate.spec.ts",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "Click on Home link",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 16614,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:02.060Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7de0d242d5b1e7b66517-3febd31334894dc1ff81",
-          "file": "navigate.spec.ts",
-          "line": 12,
-          "column": 5
-        },
-        {
-          "title": "Click on About Us",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 17025,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:02.096Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7de0d242d5b1e7b66517-88d8c370fc53553a91fe",
-          "file": "navigate.spec.ts",
-          "line": 20,
-          "column": 5
-        },
-        {
-          "title": "Click on Careers",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 16837,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:02.104Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7de0d242d5b1e7b66517-4d6808ebe8a273beed6e",
-          "file": "navigate.spec.ts",
-          "line": 28,
-          "column": 5
-        },
-        {
-          "title": "Click on Leading News",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 14053,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:19.510Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "7de0d242d5b1e7b66517-06c486f002f256eb6d69",
-          "file": "navigate.spec.ts",
-          "line": 36,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "services.spec.ts",
-      "file": "services.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Open and interact with services",
+          "title": "Hover Our Product Button",
           "ok": false,
           "tags": [],
           "tests": [
@@ -241,95 +73,70 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "status": "timedOut",
-                  "duration": 31361,
+                  "workerIndex": 17,
+                  "status": "failed",
+                  "duration": 2725,
                   "error": {
-                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
-                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts:14:17",
+                    "matcherResult": {
+                      "actual": 2,
+                      "expected": 1,
+                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
+                      "name": "toBe",
+                      "pass": false
+                    },
+                    "location": {
+                      "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
+                      "column": 17,
+                      "line": 14
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m   \n \u001b[90m 13 |\u001b[39m   \u001b[90m// Debug: Ensure only one element matches\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   expect(count)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m\n \u001b[90m 16 |\u001b[39m   \u001b[90m// Hover over the first element if there are multiple\u001b[39m\n \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\u001b[0m"
                   },
                   "errors": [
                     {
-                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
-                    },
-                    {
                       "location": {
-                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\pages\\HomePage.ts",
-                        "column": 19,
-                        "line": 31
+                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
+                        "column": 17,
+                        "line": 14
                       },
-                      "message": "Error: locator.waitFor: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'ACES – Maintenance and Support' }) to be visible\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\HomePage.ts:31\n\n\u001b[0m \u001b[90m 29 |\u001b[39m     \n \u001b[90m 30 |\u001b[39m     \u001b[90m// Wait for the link to be visible and stable\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 31 |\u001b[39m     \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m\u001b[33m,\u001b[39m timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 32 |\u001b[39m     \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mclick({ timeout\u001b[33m:\u001b[39m \u001b[35m60000\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 33 |\u001b[39m   }\n \u001b[90m 34 |\u001b[39m\u001b[0m\n\u001b[2m    at HomePage.clickServiceLink (C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\pages\\HomePage.ts:31:19)\u001b[22m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\services.spec.ts:23:5\u001b[22m"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n\u001b[0m \u001b[90m 12 |\u001b[39m   \n \u001b[90m 13 |\u001b[39m   \u001b[90m// Debug: Ensure only one element matches\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   expect(count)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m\n \u001b[90m 16 |\u001b[39m   \u001b[90m// Hover over the first element if there are multiple\u001b[39m\n \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts:14:17\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-23T08:00:19.511Z",
+                  "startTime": "2024-11-24T07:20:37.413Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Open-and-interact-with-services\\test-failed-1.png"
+                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Open-and-interact-with-services\\video.webm"
+                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Open-and-interact-with-services\\trace.zip"
+                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\trace.zip"
                     }
-                  ]
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
+                    "column": 17,
+                    "line": 14
+                  }
                 }
               ],
               "status": "unexpected"
             }
           ],
-          "id": "a6146cef71e816805252-0b17d1e7efe57e141171",
-          "file": "services.spec.ts",
-          "line": 4,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "socialMedia.spec.ts",
-      "file": "socialMedia.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Open LinkedIn popup",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 13897,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-23T08:00:19.655Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "733e1fbd0c70f715327f-aadf5cac3c32dfaadfae",
-          "file": "socialMedia.spec.ts",
-          "line": 4,
+          "id": "afe814a7ba67be92d8a9-6a194b6c9c3f9d6403dc",
+          "file": "testfile.spec.ts",
+          "line": 7,
           "column": 5
         }
       ]
@@ -337,9 +144,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-11-23T08:00:01.073Z",
-    "duration": 50924.102,
-    "expected": 6,
+    "startTime": "2024-11-24T07:20:35.755Z",
+    "duration": 4874.26099999994,
+    "expected": 0,
     "skipped": 0,
     "unexpected": 1,
     "flaky": 0

@@ -40,6 +40,10 @@ export class HomePage {
     await this.page.locator('#masthead').getByRole('link', { name: 'Careers' }).click();
   }
 
+  async clickOurProducts() {
+    await this.page.locator('#masthead').getByRole('link', { name: 'Our Products' }).click();
+  }
+
   async clickLeadingNews() {
     await this.page.locator('#masthead').getByRole('link', { name: 'LeadingNews' }).click();
   }
