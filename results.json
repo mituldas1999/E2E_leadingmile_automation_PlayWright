@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 4
     },
     "preserveOutput": "always",
     "reporter": [
@@ -55,13 +55,213 @@
   },
   "suites": [
     {
-      "title": "testfile.spec.ts",
-      "file": "testfile.spec.ts",
+      "title": "navigate.spec.ts",
+      "file": "navigate.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Hover Our Product Button",
+          "title": "Navigate to homepage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9320,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:02.785Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7de0d242d5b1e7b66517-443a96d67ec46167033a",
+          "file": "navigate.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Click on Home link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 29114,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:02.934Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7de0d242d5b1e7b66517-3febd31334894dc1ff81",
+          "file": "navigate.spec.ts",
+          "line": 12,
+          "column": 5
+        },
+        {
+          "title": "Click on About Us",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 11756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:02.912Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7de0d242d5b1e7b66517-88d8c370fc53553a91fe",
+          "file": "navigate.spec.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "Click on Careers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 22142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:02.917Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7de0d242d5b1e7b66517-4d6808ebe8a273beed6e",
+          "file": "navigate.spec.ts",
+          "line": 28,
+          "column": 5
+        },
+        {
+          "title": "Click on Leading News",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 15700,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:13.765Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7de0d242d5b1e7b66517-06c486f002f256eb6d69",
+          "file": "navigate.spec.ts",
+          "line": 36,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "new.spec.ts",
+      "file": "new.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "hover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 11869,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:16.208Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f7abdd980c976630c118-30d20459bc9068d2d281",
+          "file": "new.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "Click",
           "ok": false,
           "tags": [],
           "tests": [
@@ -73,70 +273,484 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 17,
-                  "status": "failed",
-                  "duration": 2725,
+                  "workerIndex": 3,
+                  "status": "timedOut",
+                  "duration": 30388,
                   "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts:14:17",
-                    "matcherResult": {
-                      "actual": 2,
-                      "expected": 1,
-                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m",
-                      "name": "toBe",
-                      "pass": false
-                    },
-                    "location": {
-                      "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
-                      "column": 17,
-                      "line": 14
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 12 |\u001b[39m   \n \u001b[90m 13 |\u001b[39m   \u001b[90m// Debug: Ensure only one element matches\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   expect(count)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m\n \u001b[90m 16 |\u001b[39m   \u001b[90m// Hover over the first element if there are multiple\u001b[39m\n \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\u001b[0m"
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                   },
                   "errors": [
                     {
-                      "location": {
-                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
-                        "column": 17,
-                        "line": 14
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m2\u001b[39m\n\n\u001b[0m \u001b[90m 12 |\u001b[39m   \n \u001b[90m 13 |\u001b[39m   \u001b[90m// Debug: Ensure only one element matches\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m   expect(count)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m \n \u001b[90m    |\u001b[39m                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m\n \u001b[90m 16 |\u001b[39m   \u001b[90m// Hover over the first element if there are multiple\u001b[39m\n \u001b[90m 17 |\u001b[39m   \u001b[36mawait\u001b[39m locator\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts:14:17\u001b[22m"
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-24T07:20:37.413Z",
+                  "startTime": "2024-11-25T03:59:26.458Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\video.webm"
+                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\new-Click\\test-failed-1.png"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\testfile-Hover-Our-Product-Button\\trace.zip"
+                      "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\new-Click\\trace.zip"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\testfile.spec.ts",
-                    "column": 17,
-                    "line": 14
-                  }
+                  ]
                 }
               ],
               "status": "unexpected"
             }
           ],
-          "id": "afe814a7ba67be92d8a9-6a194b6c9c3f9d6403dc",
-          "file": "testfile.spec.ts",
-          "line": 7,
+          "id": "f7abdd980c976630c118-50859e39f730a2ecc1a3",
+          "file": "new.spec.ts",
+          "line": 23,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ProductsPage.spec.ts",
+      "file": "ProductsPage.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Products Page Tests",
+          "file": "ProductsPage.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Navigate to Maintenance and Support",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "failed",
+                      "duration": 1318,
+                      "error": {
+                        "message": "TypeError: productsPage.navigate is not a function",
+                        "stack": "TypeError: productsPage.navigate is not a function\n    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:9:24",
+                        "location": {
+                          "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                          "column": 24,
+                          "line": 9
+                        },
+                        "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m\n \u001b[90m  8 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[90m// Interact with the Maintenance and Support menu item\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'maintenanceAndSupport'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                            "column": 24,
+                            "line": 9
+                          },
+                          "message": "TypeError: productsPage.navigate is not a function\n\n\u001b[0m \u001b[90m  7 |\u001b[39m\n \u001b[90m  8 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[90m// Interact with the Maintenance and Support menu item\u001b[39m\n \u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'maintenanceAndSupport'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:9:24\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:28.303Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-ca0b8--to-Maintenance-and-Support\\test-failed-2.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-ca0b8--to-Maintenance-and-Support\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-ca0b8--to-Maintenance-and-Support\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-ca0b8--to-Maintenance-and-Support\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                        "column": 24,
+                        "line": 9
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c6d5a7a91cb9cd27bd4e-bba369e57fbaf5bd2197",
+              "file": "ProductsPage.spec.ts",
+              "line": 5,
+              "column": 7
+            },
+            {
+              "title": "Navigate to Integration Layer",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 737,
+                      "error": {
+                        "message": "TypeError: productsPage.navigate is not a function",
+                        "stack": "TypeError: productsPage.navigate is not a function\n    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:22:24",
+                        "location": {
+                          "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                          "column": 24,
+                          "line": 22
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// Interact with the Integration Layer menu item\u001b[39m\n \u001b[90m 25 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'integrationLayer'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                            "column": 24,
+                            "line": 22
+                          },
+                          "message": "TypeError: productsPage.navigate is not a function\n\n\u001b[0m \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 22 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m     \u001b[90m// Interact with the Integration Layer menu item\u001b[39m\n \u001b[90m 25 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'integrationLayer'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:22:24\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:29.500Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-c143a-vigate-to-Integration-Layer\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-c143a-vigate-to-Integration-Layer\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-c143a-vigate-to-Integration-Layer\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                        "column": 24,
+                        "line": 22
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c6d5a7a91cb9cd27bd4e-a172f0c2de4763dc5ee3",
+              "file": "ProductsPage.spec.ts",
+              "line": 18,
+              "column": 7
+            },
+            {
+              "title": "Navigate to Data Migration",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 1289,
+                      "error": {
+                        "message": "TypeError: productsPage.navigate is not a function",
+                        "stack": "TypeError: productsPage.navigate is not a function\n    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:35:24",
+                        "location": {
+                          "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                          "column": 24,
+                          "line": 35
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 35 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 36 |\u001b[39m\n \u001b[90m 37 |\u001b[39m     \u001b[90m// Interact with the Data Migration menu item\u001b[39m\n \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'dataMigration'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                            "column": 24,
+                            "line": 35
+                          },
+                          "message": "TypeError: productsPage.navigate is not a function\n\n\u001b[0m \u001b[90m 33 |\u001b[39m\n \u001b[90m 34 |\u001b[39m     \u001b[90m// Navigate to the homepage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 35 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mnavigate()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 36 |\u001b[39m\n \u001b[90m 37 |\u001b[39m     \u001b[90m// Interact with the Data Migration menu item\u001b[39m\n \u001b[90m 38 |\u001b[39m     \u001b[36mawait\u001b[39m productsPage\u001b[33m.\u001b[39mclickMenuItem(\u001b[32m'dataMigration'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts:35:24\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:32.829Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-Tests-Navigate-to-Data-Migration\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-Tests-Navigate-to-Data-Migration\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\ProductsPage-Products-Page-Tests-Navigate-to-Data-Migration\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\ProductsPage.spec.ts",
+                        "column": 24,
+                        "line": 35
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "c6d5a7a91cb9cd27bd4e-7a7ad49b8152acf6c883",
+              "file": "ProductsPage.spec.ts",
+              "line": 31,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "services.spec.ts",
+      "file": "services.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Services Page Tests",
+          "file": "services.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Navigate to and verify Business Intelligence",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "timedOut",
+                      "duration": 36809,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:34.306Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Services-Page-Tes-c6090-erify-Business-Intelligence\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Services-Page-Tes-c6090-erify-Business-Intelligence\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a6146cef71e816805252-f34a28e80cf6137f3cb8",
+              "file": "services.spec.ts",
+              "line": 13,
+              "column": 7
+            },
+            {
+              "title": "Navigate to and verify Maintenance and Support",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "timedOut",
+                      "duration": 33834,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\pages\\ServicesPage.ts",
+                            "column": 20,
+                            "line": 14
+                          },
+                          "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Our Services ' })\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\ServicesPage.ts:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m     \u001b[90m// Hover over the dropdown to make it visible\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mconst\u001b[39m dropdown \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Our Services '\u001b[39m })\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m dropdown\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m dropdown\u001b[33m.\u001b[39mwaitFor({ state\u001b[33m:\u001b[39m \u001b[32m'visible'\u001b[39m })\u001b[33m;\u001b[39m \u001b[90m// Ensure dropdown becomes visible\u001b[39m\n \u001b[90m 16 |\u001b[39m   }\n \u001b[90m 17 |\u001b[39m\u001b[0m\n\u001b[2m    at ServicesPage.openOurServicesDropdown (C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\pages\\ServicesPage.ts:14:20)\u001b[22m\n\u001b[2m    at ServicesPage.clickMaintenanceAndSupport (C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\pages\\ServicesPage.ts:35:16)\u001b[22m\n\u001b[2m    at C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\tests\\services.spec.ts:21:24\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:34.040Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Services-Page-Tes-fc9f1-ify-Maintenance-and-Support\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Services-Page-Tes-fc9f1-ify-Maintenance-and-Support\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\TS4U\\Desktop\\Projects\\E2E_leadingmile_automation_PlayWright\\test-results\\services-Services-Page-Tes-fc9f1-ify-Maintenance-and-Support\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "a6146cef71e816805252-ef8f57201a75a1e82434",
+              "file": "services.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "Navigate to and verify Testing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 21397,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-11-25T03:59:36.448Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a6146cef71e816805252-bff9b2dc42ee5f24a113",
+              "file": "services.spec.ts",
+              "line": 25,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "socialMedia.spec.ts",
+      "file": "socialMedia.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Open LinkedIn popup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 15537,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-25T03:59:58.614Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "733e1fbd0c70f715327f-aadf5cac3c32dfaadfae",
+          "file": "socialMedia.spec.ts",
+          "line": 4,
           "column": 5
         }
       ]
@@ -144,11 +758,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-11-24T07:20:35.755Z",
-    "duration": 4874.26099999994,
-    "expected": 0,
+    "startTime": "2024-11-25T03:59:01.497Z",
+    "duration": 73166.69099999999,
+    "expected": 8,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 6,
     "flaky": 0
   }
 }

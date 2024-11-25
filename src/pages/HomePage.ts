@@ -22,12 +22,8 @@ export class HomePage {
   }
 
   async clickServiceLink(serviceName: string) {
-    // Ensure the 'Our Services' menu is open
     await this.clickOurServices();
-
     const locator = this.page.getByRole('link', { name: serviceName });
-    
-    // Wait for the link to be visible and stable
     await locator.waitFor({ state: 'visible', timeout: 60000 });
     await locator.click({ timeout: 60000 });
   }
