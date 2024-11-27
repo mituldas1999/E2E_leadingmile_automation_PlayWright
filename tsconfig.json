@@ -1,12 +1,11 @@
 {
-    "compilerOptions": {
-      "baseUrl": "./",
-      "paths": {
-        "@pages/*": ["src/pages/*"]
-      },
-      "strict": true,
-      "strictNullChecks": false,
-      "noImplicitAny": false
-    }
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@pages/*": ["src/pages/*"]
+    },
+    "strict": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false
   }
-  
+}
