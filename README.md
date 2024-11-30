@@ -85,7 +85,7 @@ This repository contains automation tests using Playwright. Follow the steps bel
 
 - **`tests/`**: Contains all test files.
 - **`playwright.config.js`**: Configuration file for Playwright settings like test timeout, browser options, etc.
-- **`package.json`**: Node.js dependencies and scripts.
+- **`package.json`**: Node.js dependencies and script.
 
 ---
 
